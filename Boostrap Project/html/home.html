@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="customMedia.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "StuYYtRdwqPVQ92VY",
+        });
+    })();
+    </script>
+</head>
+<body>
+     <nav class="navbar navbar-expand-md navbar-light navbarDetail shadow">
+        <div class="container-fluid">
+            <div class=" navbar-brand d-flex align-items-center justify-content-around">
+                <div class="p-1 mx-lg-3 mx-sm-2 mx-1 headingName">
+                    <h1>Cushions Ltd</h1>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"
+            data-bs-target="#navbarmain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-sharp fa-solid fa-grip-lines"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmain">
+                <ul class="navbar-nav ms-auto d-flex align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3" href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid sliderPictures mt-3 mt-md-1">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+              <div class="carousel-item sliderItems active">
+                <img src="../images/pic1.jpg" class="d-block w-100" alt="logo">
+              </div>
+              <div class="carousel-item sliderItems">
+                <img src="../images/pic4.jpg" class="d-block w-100" alt="logo">
+              </div>
+              <div class="carousel-item sliderItems">
+                <img src="../images/pic2.jpg" class="d-block w-100" alt="logo">
+              </div>
+              <div class="carousel-item sliderItems">
+                <img src="../images/pic3.jpg" class="d-block w-100" alt="logo">
+              </div>
+              <div class="carousel-item sliderItems">
+                <img src="../images/pic4.jpg" class="d-block w-100" alt="logo">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 mt-md-4 text-center hometext">
+        <h2>We are a Cushion Wholesale Provider Company</h2>
+        <p>Based in Karachi-Pakistan, we ship to over 150+ countries and nationwide.</br> With over 3 million satisfied customers all across the world</br> Cushions Limited is the <b>LARGEST CUSHION SUPPLIER</b> in Pakistan</p>
+    </div>
+
+    <div class="container-fluid mt-4 mt-md-6">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column col-md-3 col-10 homeOptions shadow mx-md-4 my-md-2 my-3 text-start">
+                <img class="h-60" src="../images/homepic1.png" alt="">
+                <h3 class="h-20 mt-3 ms-3">About Us</h3>
+                <a class="h-20 mt-2 ms-3 mb-4" href="about.html">Learn More</a>
+            </div>
+            <div class="d-flex flex-column col-md-3 col-10 homeOptions shadow mx-md-4 my-md-2 my-3 text-start">
+                <img class="h-60" src="../images/homepic2.png" alt="">
+                <h3 class="h-20 mt-3 ms-3">Products</h3>
+                <a class="h-20 mt-2 ms-3 mb-4" href="product.html">Learn More</a>
+            </div>
+            <div class="d-flex flex-column col-md-3 col-10 homeOptions shadow mx-md-4 my-md-2 my-3 text-start">
+                <img class="h-60" src="../images/hompic3.png" alt="">
+                <h3 class="h-20 mt-3 ms-3">Contact Us</h3>
+                <a class="h-20 mt-2 ms-3 mb-4" href="#Contact">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center d-flex justify-content-center align-items-center mt-4 newLetterContainer py-4">
+        <div class="w-50">
+            <div class="row d-flex justify-content-center align-items-center newsLetter">
+                <div class="col-12">
+                    <h3>NEWSLETTER</h3>
+                </div>
+                <div class="col-12">
+                    <p>Get Promotions and Updates</p>
+                </div>
+                <div class="col-lg-4 col-12 mt-3 mt-lg-0">
+                    <input class="text-center form-control inputNewsLetter" id="nameNews" type="text" placeholder="Name">
+                </div>
+                <div class="col-lg-4 col-12 mt-3 mt-lg-0">
+                    <input class="text-center form-control inputNewsLetter" id="emailNews" type="email" placeholder="Email">
+                </div> 
+                <div class="col-lg-4 col-12 mt-3 mt-lg-0">
+                    <button class="text-center w-100 btn btn-outline-danger" id="newsBtn">Subscribe</button>
+                </div>
+                <div class="col-12 mt-3 mt-lg-2">
+                    <p id="errorMessageNews" class="text-center mt-3" style="font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    color: red;
+                    font-weight: 400;
+                    word-break: break-word;"></p>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 mt-md-6 contactContainer py-4" id="Contact">
+        <div class="row d-flex justify-content-center">
+            <div class="d-flex flex-column justify-content-center col-md-4 col-10 px-0 contactInfo px-md-2 px-lg-4">
+                <h3>Email</h3>
+                <p>cushionsltd.customercare@gmail.com</p>
+                <h3>Phone Number</h3>
+                <p>+92 873910910</p>
+                <h3>Head Office</h3>
+                <p>D-123, Street 6, DHA Phase 6, Karachi, Sindh, Pakistan</p>
+                <h3>Factory</h3>
+                <p>Sector-23,Industrial Zone, XYZ Street, Karachi, Sindh, Pakistan</p>
+
+            </div>
+            <div class="col-md-8 col-10 px-0">
+                <div class="row d-flex justify-content-center align-items-center contactForm">
+                    <div class="col-12">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="col-12">
+                        <p>Our representative will get in touch with you as soon as possible</p>
+                    </div>
+                    <div class="col-lg-6 col-12 mt-3 mt-lg-2">
+                        <input class="text-center form-control" type="text" id="fname" placeholder="First Name">
+                    </div>
+                    <div class="col-lg-6 col-12 mt-3 mt-lg-2">
+                        <input class="text-center form-control" type="text" id="lname" placeholder="Last Name">
+                    </div> 
+                    <div class="col-lg-6 col-12 mt-3 mt-lg-2">
+                        <input class="text-center form-control" type="number" id="number" placeholder="Phone Number">
+                    </div> 
+                    <div class="col-lg-6 col-12 mt-3 mt-lg-2">
+                        <input class="text-center form-control" type="email" id="mail" placeholder="Email">
+                    </div> 
+                    <div class="col-12 mt-3 mt-lg-2">
+                        <textarea class="form-control text-start" rows="5" id="message" placeholder="Type your Message/Query here.."></textarea>
+                    </div> 
+                    <div class="col-12 mt-3 mt-lg-2">
+                        <button class="text-center w-100 btn btn-outline-light" id="submit">Submit Request</button>
+                    </div>
+                    <div class="col-12 mt-3 mt-lg-2">
+                        <p id="errorMessage" class="text-center mt-3" style="font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        color: red;
+                        font-weight: 400;
+                        word-break: break-word;"></p>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid d-flex justify-content-center align-items-center pt-4 footerContainer">
+        <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center footDataContainer">
+            <div class="rounded-circle d-flex justify-content-center align-items-center footImgContainer">
+                <img src="../images/footerHome.svg" alt="" class="img-fluid">
+            </div>
+            <h3 class="py-3">Safe Shopping</h3>
+            <p>Buy With Confidence</p>
+        </div>
+        <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center footDataContainer">
+            <div class="rounded-circle d-flex justify-content-center align-items-center footImgContainer">
+                <img src="../images/footerTruck.svg" alt="" class="img-fluid">
+            </div>
+            <h3 class="py-3">Fast Shippping</h3>
+            <p>Get Your Product Fast</p>
+        </div>
+        <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center footDataContainer">
+            <div class="rounded-circle d-flex justify-content-center align-items-center footImgContainer">
+                <img src="../images/footerThumbsUp.svg" alt="" class="img-fluid">
+            </div>
+            <h3 class="py-3">Satisfactory</h3>
+            <p>Or get a refund</p>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

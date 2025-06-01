@@ -1,0 +1,70 @@
+@media (max-width:768px) {
+    .navbar-collapse {
+        background-color: #f5c3c3;
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        display: block;
+    }
+
+    .navbar-toggler {
+        z-index: 1100;
+    }
+
+    .headingName h1{
+        font-size: 40px;
+        font-weight: 800;
+    } 
+
+    .sliderPictures {
+        margin-top: 150px;
+        padding: 10px;
+        max-height: 150px;
+    }
+    
+    .sliderItems img {
+        height: 150px;
+        object-fit:cover;
+        width: 100%;
+    }
+
+    .aboutContainer{
+        height:fit-content;
+    }
+
+    .picAboutContainer img{
+        max-height: 250px;
+        object-fit:cover;
+        display: block;
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    
+    .contactForm h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        color: white;
+    }
+    
+    .contactForm p{
+        font-family: 'Cormorant Garamond',serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #5f4d5d;
+    }
+
+}

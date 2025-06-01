@@ -1,0 +1,232 @@
+body{
+    background-color: #db9d9d;
+}
+
+.navbarDetail{
+    background-color: #f5c3c3;
+    font-family: 'Cormorant Garamond',serif;
+}
+
+.navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: 28px;
+    color: #b08ead !important;
+    transition: color 0.3s ease-in-out;
+    padding: 5px;
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px; 
+    background-color: #b08ead;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after{
+    width: 100%;
+}
+
+.headingName h1{
+    font-weight: 800;
+    font-size: 48px;
+    color: #b08ead;
+}
+
+.sliderPictures {
+    position: relative;
+    max-height: 400px;
+}
+
+.sliderItems{
+    transition: transform 2s ease-in-out;
+}
+
+.sliderItems img {
+    max-height: 400px;
+    object-fit:cover;
+    width: 100%;
+}
+
+.hometext{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.hometext h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #b99bb6;
+}
+
+.hometext p{
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 26px;
+    font-weight: 500px;
+    color: #5f4d5d;
+}
+
+.homeOptions{
+    height: 300px;
+    background-color: #ceb3cb;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.homeOptions img{
+    max-height: 200px;
+    object-fit:fill;
+    display: block;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+    width: 100%;
+}
+
+.homeOptions img:hover {
+    transform: scale(1.05); /* Slight zoom */
+}
+
+.homeOptions h3{
+    font-family: 'Cormorant Garamond',serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.homeOptions a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond',serif;
+    font-style: italic;
+    color: white;
+}
+
+.homeOptions p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.newLetterContainer{
+    background-color: white;
+}
+
+.newsLetter h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: #b99bb6;
+}
+
+.newsLetter p{
+    font-family: 'Cormorant Garamond',serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #5f4d5d;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ccc !important;
+}
+
+.footerContainer{
+    background-color: #f5c3c3;
+}
+
+.footImgContainer{
+    height: 80px;
+    width: 80px;
+    background-color: #db9d9d;
+}
+
+.footImgContainer img{
+    width: 50px;
+}
+
+.footDataContainer h3{
+    font-family: 'Cormorant Garamond',serif;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.footDataContainer p{
+    font-family: 'Cormorant Garamond',serif;
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.aboutContainer{
+    height: 500px;
+}
+
+.textAboutContainer{
+    font-family: 'Cormorant Garamond',serif;
+    color: white;
+    display: block;
+}
+
+.textAboutContainer h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.textAboutContainer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.picAboutContainer{
+    background-color: white;
+}
+
+.picAboutContainer img{
+    max-height: 450px;
+    object-fit:cover;
+    display: block;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.contactInfo h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.contactInfo p{
+    font-family: 'Cormorant Garamond',serif;
+    font-weight: 600;
+    display: block;
+    font-size: 26px;
+    color: #5f4d5d;
+    word-break: break-word;
+}
+
+.contactForm h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+.contactForm p{
+    font-family: 'Cormorant Garamond',serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #5f4d5d;
+}
